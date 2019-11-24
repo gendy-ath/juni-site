@@ -11,5 +11,8 @@
   "repository": {
     "type": "git",
     "url": "juni-demo"
+  },
+  "dependencies": {
+    "lr-http-server": "^0.1.5"
   }
 }
