@@ -51,5 +51,68 @@ a.nav-link.active {
     transform: translate(-50%, -50%);
 }
 .logo-hero img{
-    max-width:500px;
+    max-width:200px;
+}
+.juni-logo-nav{
+padding:0;
+}
+.juni-logo-nav img{
+    width:150px;
+    height:50px;
+}
+.navbar{
+    padding:.5em .5em !important;
+}
+.menu-right{
+    bottom: 0;
+    position: absolute;
+    right: 15px;
+}
+.mobile-menu-right{
+    bottom: 0;
+    position: absolute;
+    right: 15px;
+}
+.menu-right ul li a{
+    color:#000;
+    font-size:14px;
+    font-family: 'Roboto Mono', monospace;
+}
+.menu-right ul li a:hover{
+    text-decoration: line-through;
+}
+.juni-menu-container{
+    padding:0 !important;
+}
+.toggle-menu{
+    padding:.5rem 1rem;
+    font-family: 'Roboto Mono', monospace;
+}
+.toggle-menu a{
+    color:#000;
+}
+.toggle-menu a:hover{
+    color:#000;
+    text-decoration: line-through;
+}
+.juni-menu-content{
+  
+}
+div#juni-menu-container{
+    position: fixed;
+    width: 100vw;
+    z-index: 1020;
+    background:#ffffffcf;
+}
+.menu-body{
+    height:100vh;
+    margin-top:100px;
+}
+.juni-content-list {
+    margin: 0 auto;
+}
+.juni-content-list ul li a{
+    color:#000;
+    font-size:16px;
+    font-family: 'Roboto Mono', monospace;
 }
