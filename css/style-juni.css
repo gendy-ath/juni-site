@@ -44,3 +44,12 @@ a.nav-link.active {
 .brand-line-3{
     margin-left:160px;
 }
+.logo-hero{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.logo-hero img{
+    max-width:500px;
+}
