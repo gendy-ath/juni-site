@@ -6,6 +6,14 @@
     -o-background-size: cover;
     background-size: cover;
 }
+.cover-middle-about{
+    height: 70vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 body{
     margin:0 !important;
 }
@@ -117,11 +125,11 @@ div#juni-menu-container{
     font-family: 'Roboto Mono', monospace;
 }
 .container-about-module{
-    background-color:#e6e6e6;
-    height: 100vh;
-    padding:8em;
- 
-    
+   padding:1em;
+}
+
+.juni-color-grey{
+background-color:#e6e6e6;
 }
 .no-padding{
     padding: 0 !important;
@@ -134,7 +142,7 @@ div#juni-menu-container{
  
 }
 .about-headline img{
-    width:330px;
+    width:160px;
    
 }
 .about-text{
@@ -144,6 +152,24 @@ div#juni-menu-container{
     padding-top:60px;
     width: 85%;
 }
+.contact-text{
+    color:#000;
+    font-size:12px;
+    font-family: 'Roboto Mono', monospace;
+    padding-top:60px;
+    width: 85%;
+}
+p.header-contact{
+    margin-top:15px;
+    text-decoration: underline;
+}
+.about-text-big{
+    color:#000;
+    font-size:16px;
+    font-family: 'Roboto Mono', monospace;
+   
+    width: 100%;
+}
 .center-element{
     margin: 0;
     position: absolute;
@@ -152,3 +178,37 @@ div#juni-menu-container{
     transform: translate(-50%, -50%);
     width:75%;
 }
+.footer-juni{
+    background: rgb(237, 107, 84);
+   
+}
+.footer-logo img{
+    width:150px;
+}
+.footer-brand-container{
+    padding:2em;
+}
+.footer-brand-container a{
+    color:#000;
+    font-family: 'Roboto Mono', monospace;
+}
+.footer-social-links{
+    margin-top:15%;
+}
+.footer-social-links a{
+    color:#000;
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    margin-right:15px;
+}
+.footer-info{
+    padding:2rem;
+}
+@media (min-width: 576px) {
+    .about-headline img{
+        width:360px;
+    }
+    .container-about-module{
+        padding:8em;
+     }
+ }
