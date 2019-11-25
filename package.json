@@ -13,6 +13,7 @@
     "url": "juni-demo"
   },
   "dependencies": {
-    "lr-http-server": "^0.1.5"
+    "lr-http-server": "^0.1.5",
+    "shufflejs": "^5.2.3"
   }
 }
