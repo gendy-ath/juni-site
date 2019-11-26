@@ -25,12 +25,19 @@ body{
     right:0;
     margin-top:30px; 
     margin-right:15px;  
+    z-index:1030;
 }
 .brand-container{
     position:fixed;
     left:0;
     margin-top:5px;
     margin-left:15px;
+    z-index:1030;
+    transition: all .5s ease;
+}
+a.brand-container-expanded{
+    color:#000 !important
+  
 }
 .brand-container a{
     color:#fff;
@@ -99,7 +106,18 @@ padding:0;
     padding:.5rem 1rem;
     font-family: 'Roboto Mono', monospace;
 }
+.toggle-menu-home{
+    padding:.5rem 1rem;
+    font-family: 'Roboto Mono', monospace;
+}
+.toggle-menu-home a{
+   color:white;
+   z-index:1030;
+}
 .toggle-menu a{
+    color:#000;
+}
+a.menu-expanded{
     color:#000;
 }
 .toggle-menu a:hover{
@@ -214,6 +232,9 @@ p.header-contact{
     .container-about-module{
         padding:8em;
      }
+     .logo-hero img{
+        max-width:400px;
+    }
  }
 
 .juni-masonry{
@@ -230,35 +251,13 @@ p.header-contact{
     display: inline-block;
     margin:3px;
     -webkit-transition:1s ease all;
+    
   
 }
 .project-item-4:hover{
     opacity: 0.4;
     cursor: crosshair;
 }
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 1;
-    transition: .5s ease;
-    background-color: #008CBA;
-  }
-  .text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
 
 @media only screen and (max-width: 320px) {
     .masonry {
@@ -289,6 +288,7 @@ p.header-contact{
         column-count: 3;
     }
 }
+
 
 
 

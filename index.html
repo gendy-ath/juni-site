@@ -9,43 +9,30 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="css/style-juni.css">
         <!--CDN BOOTSTRAP-->
-    
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <!--FONTS GOOGLE-->
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300&display=swap" rel="stylesheet">
+        <!--Gendy custom js-->
+        <script src="js/juni-scripts.js"></script>
+        <!--JQuery-->
+        
+        
+
     </head>
     <body>
         <header>
-                <nav class="navbar fixed-top navbar-light bg-light">
-                    <div class="container-fluid juni-menu-container">
-                        <a class="juni-logo-nav" href="#">
-                          <img src="/img/logo/logo-juni-vector.svg"  alt="JUNI">
-                        </a>
-                        <div class="menu-right d-none d-lg-block d-xl-block">
-                        <ul class="nav justify-content-end">
-                                <li class="nav-item">
-                                  <a class="nav-link active" href="#">index</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">about</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">about</a>
-                                </li>
-                              </ul>
-                            </div>
-                            <!--Mobile layout menu-->
-                            <div class="mobile-menu-right d-block d-lg-none d-xl-none">
-                                <div class="toggle-menu">
-                                   <a class="menu-trigger" data-toggle="collapse" href="#juni-menu-container" role="button"> menu</a>
-                                </div>
-                            </div>
-                        </div>
-                      </nav>
+               
+          <div class="nav-container d-block d-lg-none d-xl-none">
+            <div class="toggle-menu-home" id="collapse-id">
+              <a class="menu-trigger"  data-toggle="collapse" href="#juni-menu-container" role="button"> menu</a>
+           </div>
+          </div>
+
+                     
                       <!--Mobile-menu-content-->
                       <div class="collapse" id="juni-menu-container">
                           <div class=" menu-body">
@@ -54,13 +41,13 @@
                                       <div class="juni-content-list">
                                             <ul class="nav flex-column justify-content-center">
                                                     <li class="nav-item">
-                                                      <a class="nav-link active" href="#">index</a>
+                                                      <a class="nav-link" href="#">index</a>
                                                     </li>
                                                     <li class="nav-item">
                                                       <a class="nav-link" href="#">about</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                      <a class="nav-link" href="#">about</a>
+                                                      <a class="nav-link" href="#">contact</a>
                                                     </li>
                                                   </ul>
                                       </div>
@@ -82,10 +69,12 @@
                             </div>
                         </a>
                 </div>
-            <div class="nav-container d-none d-lg block d-xl-block">
+
+
+            <div class="nav-container d-none d-lg-block d-xl-block">
                 <ul class="nav justify-content-end">
                         <li class="nav-item">
-                          <a class="nav-link active" href="#">index</a>
+                          <a class="nav-link" href="/category.html">index</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#">about</a>
