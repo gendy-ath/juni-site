@@ -13,3 +13,13 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function(){
+  
+  if ($('.category-page').length) { 
+    var navOffset = $('.navbar').height();
+    $('.category-page').css('margin-top', navOffset);
+  }
+});
+
+
+
