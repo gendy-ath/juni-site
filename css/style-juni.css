@@ -75,6 +75,17 @@ body{
     z-index:1030;
     transition: all .5s ease;
 }
+.brand-container-hero{
+  padding:3em;
+}
+
+.brand-container-hero {
+  color:#fff;
+  font-size:16px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
 a.brand-container-expanded{
     color:#000 !important
   
@@ -94,14 +105,19 @@ a.brand-container-expanded{
     font-family: 'Roboto Mono', monospace;
     color:#fff;
     font-size:14px;
+   
 }
 .nav-container ul li a:hover{
    
-    text-decoration: line-through;
+font-weight: 900;
+
+
 }
 a.nav-link.active {
-    text-decoration: line-through;
+    text-decoration: underline;
+   
 }
+
 .brand-line-1{
     margin-left:60px;
 }
@@ -114,11 +130,12 @@ a.nav-link.active {
     left:50%;
     transform: translate(-50%, -50%);
 }
-.logo-hero img{
-    max-width:200px;
+img.logo-hero-img{
+  max-width:200px;
 }
 .juni-logo-nav{
 padding:0;
+margin-left:5px;
 }
 .juni-logo-nav img{
     width:150px;
@@ -130,7 +147,7 @@ padding:0;
 .menu-right{
     bottom: 0;
     position: absolute;
-    right: 15px;
+    right: 5px;
 }
 .mobile-menu-right{
     bottom: 0;
@@ -141,9 +158,11 @@ padding:0;
     color:#000;
     font-size:14px;
     font-family: 'Roboto Mono', monospace;
+   
 }
 .menu-right ul li a:hover{
-    text-decoration: line-through;
+    font-weight: 900;
+    
 }
 .juni-menu-container{
     padding:0 !important;
@@ -168,7 +187,8 @@ a.menu-expanded{
 }
 .toggle-menu a:hover{
     color:#000;
-    text-decoration: line-through;
+    font-weight:900;
+    text-decoration: none;
 }
 .juni-menu-content{
   
@@ -177,7 +197,7 @@ div#juni-menu-container{
     position: fixed;
     width: 100vw;
     z-index: 1020;
-    background:#ffffffcf;
+    background:#ffffffe3;
 }
 .menu-body{
     height:100vh;
@@ -288,8 +308,9 @@ p.header-contact{
     .container-about-module{
         padding:1em;
      }
-     .logo-hero img{
-        max-width:500px;
+  
+    img.logo-hero-img{
+      max-width:500px;
     }
     .about-module-component{
         padding: 5em 10em;
@@ -480,7 +501,7 @@ p.header-contact{
     margin-right:15px;
   }
   .project-info-container{
-      margin-top:10px;
+      margin-top:15px;
       margin-bottom:10px;
       padding-left:0 !important;
   }
@@ -492,7 +513,12 @@ p.header-contact{
   .arrows img{
       width:80px;
       margin-left:15px;
+      -webkit-transition: .5s ease all;
+      transition: .5s ease all;
   }
+  .arrows img:hover{
+    opacity:0.6;
+}
   .arrow-back img{
     width:100px;
     -webkit-transition: .5s ease all;
