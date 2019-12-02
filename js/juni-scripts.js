@@ -17,7 +17,7 @@ jQuery(window).on("load", function (e) {
     $('.project-page').addClass('slide-in-left'); 
     $('#juni-load').css('opacity','0'); 
     $('#juni-load').css('display','none');
-	}, 400);	
+	}, 50);	
 });
 
 $(document).ready(function(){

@@ -410,11 +410,11 @@ p.header-contact{
 }
 .project-item-4:hover .project-title-hover{
     opacity: 1;
-    cursor: crosshair;
+   
 }
 .project-item-4:hover .project-title-text{
-    opacity: 1;
-    cursor: crosshair;
+    opacity: 0;
+   
 }
 
 @media only screen and (max-width: 320px) {
