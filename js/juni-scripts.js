@@ -1,3 +1,4 @@
+
 jQuery(window).on("load", function (e) {
 
 	if (jQuery('#juni-load').length) { 
@@ -6,7 +7,7 @@ jQuery(window).on("load", function (e) {
 		}
 	setTimeout(function(){ 
     $('.contact-page').removeClass('animatable'); 
-    $('.contact-page').addClass('slide-in-left'); 
+    $('.contact-page').addClass('slide-in-top'); 
     $('.about-page').removeClass('animatable'); 
     $('.about-page').addClass('slide-in-left'); 
     $('.home-page').removeClass('animatable'); 
@@ -19,6 +20,7 @@ jQuery(window).on("load", function (e) {
     $('#juni-load').css('display','none');
 	}, 50);	
 });
+
 
 $(document).ready(function(){
    

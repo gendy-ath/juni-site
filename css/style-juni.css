@@ -212,8 +212,11 @@ div#juni-menu-container{
     font-family: 'Roboto Mono', monospace;
 }
 .container-about-module{
-   padding:1em;
+  padding: 0;
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
 
 .juni-color-grey{
 background-color:#e6e6e6;
@@ -251,6 +254,7 @@ background-color:#e6e6e6;
 p.header-contact{
     margin-top:15px;
     text-decoration: underline;
+    margin-bottom:0px;
 }
 .about-text-big{
     color:#000;
@@ -577,6 +581,7 @@ p.header-contact{
       left:0;
       -webkit-transition: .5s ease all;
     transition: .5s ease all;
+    
   }
   .slide-in-bottom {
 	-webkit-animation: slide-in-bottom 0.8s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
@@ -693,5 +698,5 @@ p.header-contact{
   
   
   .animatable{
-      visibility: hidden;
+      visibility: visible;
   }
